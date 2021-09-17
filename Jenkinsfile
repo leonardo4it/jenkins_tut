@@ -10,5 +10,11 @@ pipeline {
                 '''
             }
         }
+        stage('BuildW') {
+            steps {
+                bat 'set'
+            }
+        }
+    }
     }
 }
